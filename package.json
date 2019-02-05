@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/IsabelKt/memoria/issues"
   },
-  "homepage": "https://github.com/IsabelKt/memoria#readme",
+  "homepage": "https://github.com/IsabelKt/memoria",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
