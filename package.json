@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "homepage": "https://isabelkt.github.io/memoria/"  
+    "start": "react-scripts start",
+   "predeploy": "yarn run build",
+   "deploy": "gh-pages -d build",
+   "build": "react-scripts build",
+   "test": "react-scripts test",
+   "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/IsabelKt/memoria/issues"
   },
-  "homepage": "https://github.com/IsabelKt/memoria#readme"
+  "homepage": "https://github.com/IsabelKt/memoria#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
